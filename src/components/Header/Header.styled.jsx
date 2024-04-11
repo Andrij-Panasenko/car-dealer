@@ -74,7 +74,7 @@ export const SocialMediaList = styled.ul`
   display: flex;
   gap: 16px;
 
-  & > li {
+  & > Li {
     width: 24px;
     height: 24px;
   }
