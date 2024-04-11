@@ -1,6 +1,5 @@
 import sprite from "../../../assets/sprite.svg"
-import { LowerHeader, Nav, NavList } from "./Navigation.styled";
-import { Link } from 'react-router-dom';
+import { ContactSell, CustomerCorner, LowerHeader, Nav, NavigationLink, NavList } from "./Navigation.styled";
 
 export const Navigation = () => {
     return (
@@ -9,27 +8,27 @@ export const Navigation = () => {
           <Nav>
             <NavList>
               <il>
-                <Link href="/">Home</Link>
+                <NavigationLink href="/">Home</NavigationLink>
               </il>
               <il>
-                <Link href="/">New models</Link>
+                <NavigationLink href="/">New models</NavigationLink>
               </il>
               <il>
-                <Link href="/">Services</Link>
+                <NavigationLink href="/">Services</NavigationLink>
               </il>
               <il>
-                <Link href="/">About us</Link>
+                <NavigationLink href="/">About us</NavigationLink>
               </il>
               <il>
-                <Link href="/">News</Link>
+                <NavigationLink href="/">News</NavigationLink>
               </il>
               <il>
-                <Link href="/">Contacts</Link>
+                <NavigationLink href="/">Contacts</NavigationLink>
               </il>
             </NavList>
           </Nav>
-          <button type="button">Contact Seller</button>
-          <ul>
+          <ContactSell type="button">Contact Seller</ContactSell>
+          <CustomerCorner>
             <li>
               <p>Compare</p>
               <svg width="26" height="26">
@@ -42,7 +41,7 @@ export const Navigation = () => {
                 <use xlinkHref={sprite + '#cart'}></use>
               </svg>
             </li>
-          </ul>
+          </CustomerCorner>
         </LowerHeader>
       </>
     );
