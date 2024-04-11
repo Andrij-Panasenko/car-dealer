@@ -12,7 +12,6 @@ import {
   SocialMediaList,
   UpperHeader,
 } from './Header.styled';
-import { Navigation } from './Navigation/Navigation';
 
 export const Header = () => {
   return (
@@ -86,7 +85,6 @@ export const Header = () => {
           </SocialMediaList>
         </UpperHeader>
       </PageHeader>
-      <Navigation />
     </>
   );
 };

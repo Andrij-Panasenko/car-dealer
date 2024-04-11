@@ -1,4 +1,5 @@
 import { Header } from "./components/Header/Header";
+import { Navigation } from "./components/Header/Navigation/Navigation";
 import { SharedLayout } from "./components/SharedLayout/SharedLayout";
 
 export default function App() {
@@ -7,9 +8,9 @@ export default function App() {
   return (
     <>
       <SharedLayout>
-          <Header />
-        <main>
-        </main>
+        <Header />
+        <Navigation />
+        <main></main>
         <footer></footer>
       </SharedLayout>
     </>
