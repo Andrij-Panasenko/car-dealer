@@ -80,7 +80,3 @@ export const SocialMediaList = styled.ul`
   }
 `;
 
-export const LowerHeader = styled.div`
-  display: flex;
-  outline: 1px solid red;
-`;

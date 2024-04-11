@@ -8,11 +8,11 @@ import {
   Location,
   LocationWrapp,
   Logo,
-  LowerHeader,
   PageHeader,
   SocialMediaList,
   UpperHeader,
 } from './Header.styled';
+import { Navigation } from './Navigation/Navigation';
 
 export const Header = () => {
   return (
@@ -85,32 +85,8 @@ export const Header = () => {
             </li>
           </SocialMediaList>
         </UpperHeader>
-        <LowerHeader>
-          <nav>
-            <Link href="/">Home</Link>
-            <Link href="/">New models</Link>
-            <Link href="/">SERVICES</Link>
-            <Link href="/">ABOUT US</Link>
-            <Link href="/">NEWS</Link>
-            <Link href="/">CONTACT</Link>
-          </nav>
-          <button type="button">Contact Seller</button>
-          <ul>
-            <li>
-              <p>Compare</p>
-              <svg width="26" height="26">
-                <use xlinkHref={sprite + '#diagram'}></use>
-              </svg>
-            </li>
-            <li>
-              <p>Cart</p>
-              <svg width="26" height="26">
-                <use xlinkHref={sprite + '#cart'}></use>
-              </svg>
-            </li>
-          </ul>
-        </LowerHeader>
       </PageHeader>
+      <Navigation />
     </>
   );
 };
