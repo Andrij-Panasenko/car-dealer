@@ -1,8 +1,9 @@
 import { GlobalStyles } from '../../styles/GlobalStyles';
+import { Layout } from './SharedLayout.styled';
 export const SharedLayout = ({ children }) => {
   return (
     <>
-      <div>{children}</div>
+      <Layout>{children}</Layout>
       <GlobalStyles />
     </>
   );
