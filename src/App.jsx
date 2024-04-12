@@ -10,7 +10,6 @@ export default function App() {
     <>
       <SharedLayout>
         <Header />
-        <Navigation />
         <main>
           <Hero/>
         </main>
