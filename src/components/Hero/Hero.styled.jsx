@@ -2,6 +2,10 @@ import styled from 'styled-components';
 import banner from '../../assets/banner-min.jpg';
 import banner2x from '../../assets/banner-2x-min.jpg';
 
+export const HeroWrap = styled.div`
+  position: relative;
+`;
+
 export const BannerBg = styled.div`
   width: 100%;
   max-width: 1440px;

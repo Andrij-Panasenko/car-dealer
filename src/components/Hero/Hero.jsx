@@ -8,6 +8,7 @@ import {
   Disclaimer,
   Duration,
   HeroImgWrapp,
+  HeroWrap,
   Month,
   Percentage,
   PriceWrapp,
@@ -17,7 +18,7 @@ import carBanner2x from '../../assets/banner-car-2x.png';
 
 export const Hero = () => {
   return (
-    <>
+    <HeroWrap>
       <Navigation />
       <BannerBg>
         <HeroImgWrapp>
@@ -42,6 +43,6 @@ export const Hero = () => {
           <ContactNow type="button">Contact Now</ContactNow>
         </Bubble>
       </BannerBg>
-    </>
+    </HeroWrap>
   );
 };

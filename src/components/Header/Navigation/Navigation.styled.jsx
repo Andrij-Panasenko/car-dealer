@@ -2,12 +2,26 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const LowerHeader = styled.div`
+  outline: 1px solid red;
+  height: 46px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.29);
+
+  position: absolute;
+`;
+
+export const NavContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  outline: 1px solid red;
-  height: 46px;
-  background-color: rgba(255, 255, 255, 0.29);
+
+  width: 1400px;
+
+  padding-top: 6px;
+  padding-bottom: 6px;
+
+  margin: 0 auto;
 `;
 
 export const Nav = styled.nav`
@@ -18,6 +32,7 @@ export const Nav = styled.nav`
 export const NavList = styled.ul`
   display: flex;
   gap: 43px;
+  margin-right: 35px;
 `;
 
 export const NavigationLink = styled(Link)`
