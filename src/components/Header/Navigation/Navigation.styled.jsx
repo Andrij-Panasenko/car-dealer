@@ -16,7 +16,8 @@ export const NavContainer = styled.div`
   align-items: center;
   justify-content: space-between;
 
-  width: 1400px;
+  width: 100%;
+  max-width: 1400px;
 
   padding-top: 6px;
   padding-bottom: 6px;
@@ -32,7 +33,6 @@ export const Nav = styled.nav`
 export const NavList = styled.ul`
   display: flex;
   gap: 43px;
-  margin-right: 35px;
 `;
 
 export const NavigationLink = styled(Link)`
