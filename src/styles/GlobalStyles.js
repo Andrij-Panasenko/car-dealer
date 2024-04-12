@@ -2,6 +2,7 @@ import { createGlobalStyle } from 'styled-components';
 import MulishBlack from '../fonts/Mulish-Black.ttf';
 import MulishBold from '../fonts/Mulish-Bold.ttf';
 import MulishMedium from '../fonts/Mulish-Medium.ttf';
+import OswaldBold from "../fonts/Oswald-Bold.ttf"
 
 export const GlobalStyles = createGlobalStyle`
 
@@ -24,6 +25,13 @@ export const GlobalStyles = createGlobalStyle`
     font-family: "Mulish";
     src: url(${MulishBlack});
     font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url(${OswaldBold});
+    font-weight: 700;
     font-style: normal;
 }
 
