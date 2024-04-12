@@ -1,10 +1,19 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
-export const PageHeader = styled.header`
+export const HeaderContainer = styled.div`
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+`;
+
+export const UpperHeader = styled.div`
   display: flex;
-  flex-direction: column;
-  background-color: transparent;
+  justify-content: space-between;
+  align-items: center;
+
+
+  padding: 30px 0;
 `;
 
 export const Logo = styled(Link)`
@@ -14,14 +23,6 @@ export const Logo = styled(Link)`
   text-transform: capitalize;
 
   color: ${(p) => p.theme.colors.blue};
-`;
-
-export const UpperHeader = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  outline: 1px solid red;
 `;
 
 export const LocationWrapp = styled.div`
@@ -79,4 +80,3 @@ export const SocialMediaList = styled.ul`
     height: 24px;
   }
 `;
-
