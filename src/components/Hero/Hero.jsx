@@ -7,6 +7,7 @@ import {
   Cost,
   Disclaimer,
   Duration,
+  HeroImgWrapp,
   Month,
   Percentage,
   PriceWrapp,
@@ -17,14 +18,14 @@ import carBanner2x from '../../assets/banner-car-2x.png';
 export const Hero = () => {
   return (
     <>
+      <Navigation />
       <BannerBg>
-        <Navigation />
-        <div>
+        <HeroImgWrapp>
           <picture>
             <source srcSet={`${carBanner1x} 1x, ${carBanner2x} 2x`} />
             <img src={carBanner1x} alt="Car banner" />
           </picture>
-        </div>
+        </HeroImgWrapp>
         <Bubble>
           <CarName>Mercedes C-Class</CarName>
           <Percentage>Just pay 30% in advance</Percentage>

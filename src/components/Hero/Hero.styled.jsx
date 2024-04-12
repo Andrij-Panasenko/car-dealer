@@ -3,19 +3,35 @@ import banner from '../../assets/banner-min.jpg';
 import banner2x from '../../assets/banner-2x-min.jpg';
 
 export const BannerBg = styled.div`
-  display: block;
-  height: 744px;
+  width: 100%;
+  max-width: 1440px;
+
+  padding-bottom: 153px;
+  padding-top: 153px;
+  /* padding-left: 135px; */
+  /* padding-right: 212px; */
+
   background-image: url(${banner});
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   margin: 0 auto;
 
+  display: inline-flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 40px;
+
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     background-image: url(${banner2x});
   }
+`;
+
+export const HeroImgWrapp = styled.div`
+  width: 650px;
+  height: 300px;
 `;
 
 export const Bubble = styled.div`
@@ -139,5 +155,3 @@ export const ContactNow = styled.button`
     background-color: #f0a500;
   }
 `;
-
-
