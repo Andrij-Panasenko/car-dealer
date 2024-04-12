@@ -5,15 +5,14 @@ export const HeaderContainer = styled.div`
   width: 100%;
   max-width: 1400px;
   margin: 0 auto;
+
+  padding: 30px 0;
 `;
 
 export const UpperHeader = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-
-  padding: 30px 0;
 `;
 
 export const Logo = styled(Link)`
