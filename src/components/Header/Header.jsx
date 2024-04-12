@@ -9,16 +9,15 @@ import {
   Location,
   LocationWrapp,
   Logo,
+  PageHeader,
   SocialMediaList,
-  UpperHeader,
 } from './Header.styled';
 
 export const Header = () => {
   return (
     <>
-      <header>
+      <PageHeader>
         <HeaderContainer>
-          <UpperHeader>
             <Logo to="/">Car Vip</Logo>
             <LocationWrapp>
               <svg width="24" height="24">
@@ -84,9 +83,8 @@ export const Header = () => {
                 </Link>
               </li>
             </SocialMediaList>
-          </UpperHeader>
         </HeaderContainer>
-      </header>
+      </PageHeader>
     </>
   );
 };

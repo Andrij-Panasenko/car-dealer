@@ -1,18 +1,28 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
+export const PageHeader = styled.header`
+  position: relative;
+  z-index: 1000;
+`;
+
 export const HeaderContainer = styled.div`
   width: 100%;
   max-width: 1400px;
+
+  padding: 30px 20px;
   margin: 0 auto;
 
-  padding: 30px 0;
-`;
-
-export const UpperHeader = styled.div`
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+
+  background-color: transparent;
+  outline: 1px solid red;
+
+  position: absolute;
+  left: 0;
+  right: 0;
 `;
 
 export const Logo = styled(Link)`

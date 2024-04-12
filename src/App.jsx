@@ -6,13 +6,13 @@ export default function App() {
   // fetch('http://localhost:3000/api/cars').then((i) => console.log(i));
   return (
     <>
+      <Header />
       <SharedLayout>
-        <Header />
         <main>
           <Hero />
         </main>
-        <footer></footer>
       </SharedLayout>
+      <footer></footer>
     </>
   );
 }

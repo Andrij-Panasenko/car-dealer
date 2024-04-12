@@ -9,6 +9,8 @@ export const LowerHeader = styled.div`
   background-color: rgba(255, 255, 255, 0.29);
 
   position: absolute;
+
+  top: 100px;
 `;
 
 export const NavContainer = styled.div`
