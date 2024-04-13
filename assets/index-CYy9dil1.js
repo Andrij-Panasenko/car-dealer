@@ -142,10 +142,6 @@ Error generating stack: `+o.message+`
   width: 100%;
   margin: 0 auto;
   background-color: rgba(255, 255, 255, 0.29);
-
-  position: absolute;
-
-  top: 100px;
 `;D.div`
   display: flex;
   align-items: center;
