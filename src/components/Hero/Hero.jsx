@@ -19,7 +19,6 @@ import carBanner2x from '../../assets/banner-car-2x.png';
 export const Hero = () => {
   return (
     <HeroWrap>
-      {/* <Navigation /> */}
       <BannerBg>
         <HeroImgWrapp>
           <picture>
