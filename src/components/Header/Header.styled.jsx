@@ -8,7 +8,7 @@ export const PageHeader = styled.header`
 
 export const HeaderContainer = styled.div`
   width: 100%;
-  max-width: 1400px;
+  max-width: 1390px;
 
   padding: 30px 20px;
   margin: 0 auto;
