@@ -39,8 +39,6 @@ export const HeroImgWrapp = styled.div`
 `;
 
 export const Bubble = styled.div`
-  width: 320px;
-  height: 320px;
   border-radius: 50%;
 
   padding-top: 94px;
@@ -54,8 +52,16 @@ export const Bubble = styled.div`
 
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
+`;
+
+export const Year = styled.p`
+  font-weight: 700;
+  font-size: 28px;
+  letter-spacing: 0.05em;
+  font-family: 'Oswald', sans-serif;
+
+  color: ${(p) => p.theme.colors.blue};
 `;
 
 export const CarName = styled.h2`
@@ -70,7 +76,7 @@ export const CarName = styled.h2`
 
   position: relative;
 
-  &::before {
+  /* &::before {
     content: '2023';
     font-weight: 700;
     font-size: 28px;
@@ -81,7 +87,7 @@ export const CarName = styled.h2`
     top: -28px;
 
     color: ${(p) => p.theme.colors.blue};
-  }
+  } */
 `;
 
 export const Percentage = styled.p`
@@ -142,7 +148,7 @@ export const ContactNow = styled.button`
   line-height: 125%;
   text-align: center;
 
-  /* max-width: 146px; */
+  min-width: 146px;
 
   border: 3px solid rgba(151, 70, 15, 0.28);
   border-radius: 5px;
