@@ -1,5 +1,6 @@
 import { Header } from './components/Header/Header';
 import { Hero } from './components/Hero/Hero';
+import { SearchForm } from './components/SearchForm/SearchForm';
 import { SharedLayout } from './components/SharedLayout/SharedLayout';
 
 export default function App() {
@@ -10,6 +11,7 @@ export default function App() {
       <SharedLayout>
         <main>
           <Hero />
+          <SearchForm/>
         </main>
       </SharedLayout>
       <footer></footer>
