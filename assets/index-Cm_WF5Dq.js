@@ -70,7 +70,7 @@ Error generating stack: `+o.message+`
   z-index: 1000;
 `,kv=W.div`
   width: 100%;
-  max-width: 1400px;
+  max-width: 1390px;
 
   padding: 30px 20px;
   margin: 0 auto;
