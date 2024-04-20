@@ -3,10 +3,14 @@ import styled from 'styled-components';
 export const Form = styled.form`
   box-shadow: 0 8px 0 0 rgba(25, 36, 89, 0.28);
   border-radius: 8px;
-  width: 100%;
+  /* width: 100%; */
   margin: 0 auto;
   display: flex;
   justify-content: center;
+
+  position: absolute;
+  /* bottom: 0; */
+  transform: translate(7%, -20%);
 `;
 
 export const SelectGroup = styled.div`
