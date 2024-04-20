@@ -71,7 +71,7 @@ Error generating stack: `+o.message+`
   padding-bottom: 80px;
 `,iv=H.div`
   width: 100%;
-  max-width: 1440px;
+  max-width: 1170px;
   margin: 0 auto;
 `,ov=H.div`
   display: block;
