@@ -6,6 +6,10 @@ export const ListItem = styled.li`
   font-size: 14px;
   width: 270px;
 
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
   color: ${(p) => p.theme.colors.text};
 `;
 
