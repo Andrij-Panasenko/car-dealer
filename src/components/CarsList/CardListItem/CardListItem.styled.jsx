@@ -19,6 +19,27 @@ export const Img = styled.img`
   object-fit: contain;
 `;
 
+export const Overlay = styled.div`
+  display: block;
+  width: 270px;
+  height: 180px;
+  background-color: rgba(25, 36, 89, 0.8);
+  border-radius: 10px;
+
+  position: absolute;
+
+  transition: transform ${(p) => p.theme.transition};
+`;
+
+export const BoxOverlay = styled.div`
+  position: relative;
+  overflow: hidden;
+
+  &:hover ${Overlay} {
+    transform: translateY(-100%);
+  }
+`;
+
 export const CarNameTittle = styled.h2`
   font-weight: inherit;
   font-size: inherit;
