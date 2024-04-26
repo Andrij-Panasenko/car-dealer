@@ -1,6 +1,6 @@
 import bankLogo from '../../../assets/bankLogo.png';
-import sprite from "../../../assets/sprite.svg"
-import tempImg from '../../../assets/Rectangle.png';//temporary data
+import sprite from '../../../assets/sprite.svg';
+import tempImg from '../../../assets/Rectangle.png'; //temporary data
 import {
   AddBtn,
   BoxOverlay,
@@ -11,11 +11,47 @@ import {
   Img,
   ListItem,
   Overlay,
+  RatingList,
   Subsidy,
   SubsidyWrapper,
 } from './CardListItem.styled';
 
-export const CardListItem = () => {
+import { BsFillStarFill as YellowStar } from 'react-icons/bs';
+import { BsFillStarFill as GreyStar } from 'react-icons/bs';
+
+export const CardListItem = ({ data }) => {
+  const { make, rating } = data;
+
+  const Rating = ({ car_rating }) => {
+    const stars = [];
+
+    for (let i = 0; i < 5; i++) {
+      if (i < car_rating) {
+        stars.push(
+          <li key={i}>
+            <YellowStar
+              style={{
+                color: '#ffc531',
+              }}
+            />
+          </li>
+        );
+      } else {
+        stars.push(
+          <li key={i}>
+            <GreyStar
+              style={{
+                color: '#f2f4f7',
+              }}
+            />
+          </li>
+        );
+      }
+    }
+
+    return <RatingList>{stars}</RatingList>;
+  };
+
   return (
     <ListItem>
       <BoxOverlay>
@@ -51,13 +87,12 @@ export const CardListItem = () => {
               </svg>
             </li>
           </ul> */}
-          <p>overlay</p>
         </Overlay>
       </BoxOverlay>
 
-      <CarNameTittle>Test car name</CarNameTittle>
+      <CarNameTittle>{make}</CarNameTittle>
       <CarPrice>test car price</CarPrice>
-      <ul></ul>
+      <Rating car_rating={rating} />
       <SubsidyWrapper>
         <Subsidy>Subsidy from</Subsidy>
         <a href="#">

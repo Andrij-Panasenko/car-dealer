@@ -100,6 +100,11 @@ export const CarPrice = styled.p`
   font-size: inherit;
 `;
 
+export const RatingList = styled.ul`
+  display: flex;
+  gap: 5px;
+`;
+
 export const SubsidyWrapper = styled.div`
   display: inline-flex;
   align-items: center;
