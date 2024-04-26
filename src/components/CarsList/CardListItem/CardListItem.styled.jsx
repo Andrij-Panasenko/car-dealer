@@ -26,6 +26,7 @@ export const Overlay = styled.div`
   background-color: rgba(25, 36, 89, 0.8);
   border-radius: 10px;
   padding: 30px 45px;
+  transform: translateY(-100%);
 
   position: absolute;
 
@@ -82,6 +83,14 @@ export const ContactBtn = styled.button`
 
   color: ${(p) => p.theme.colors.white};
   background-color: #0066b3;
+`;
+
+export const SocList = styled.ul`
+  display: flex;
+`;
+
+export const SocialIcon = styled.svg`
+  stroke: #ffffff;
 `;
 
 export const HeadSetSvg = styled.svg`

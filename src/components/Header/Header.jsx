@@ -10,6 +10,7 @@ import {
   LocationWrapp,
   Logo,
   PageHeader,
+  SocialIcons,
   SocialMediaList,
 } from './Header.styled';
 
@@ -55,9 +56,9 @@ export const Header = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <svg width="24" height="24">
+                  <SocialIcons width="24" height="24">
                     <use xlinkHref={sprite + '#instagram'}></use>
-                  </svg>
+                  </SocialIcons>
                 </Link>
               </li>
               <li>
@@ -66,9 +67,9 @@ export const Header = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <svg width="24" height="24">
+                  <SocialIcons width="24" height="24">
                     <use xlinkHref={sprite + '#facebook'}></use>
-                  </svg>
+                  </SocialIcons>
                 </Link>
               </li>
               <li>
@@ -77,9 +78,9 @@ export const Header = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <svg width="24" height="24">
+                  <SocialIcons width="24" height="24">
                     <use xlinkHref={sprite + '#twitter'}></use>
-                  </svg>
+                  </SocialIcons>
                 </Link>
               </li>
             </SocialMediaList>

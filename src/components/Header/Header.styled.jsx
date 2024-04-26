@@ -89,3 +89,7 @@ export const SocialMediaList = styled.ul`
     height: 24px;
   }
 `;
+
+export const SocialIcons = styled.svg`
+  stroke: ${p=>p.theme.colors.text};
+`;

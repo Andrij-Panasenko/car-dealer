@@ -12,6 +12,8 @@ import {
   ListItem,
   Overlay,
   RatingList,
+  SocList,
+  SocialIcon,
   Subsidy,
   SubsidyWrapper,
 } from './CardListItem.styled';
@@ -70,23 +72,23 @@ export const CardListItem = ({ data }) => {
             Contact Seller
           </ContactBtn>
           <p>Social</p>
-          {/* <ul>
+          <SocList>
             <li>
-              <svg>
-                <use></use>
-              </svg>
+              <SocialIcon width="24" height="24">
+                <use xlinkHref={sprite + '#instagram'}></use>
+              </SocialIcon>
             </li>
             <li>
-              <svg>
-                <use></use>
-              </svg>
+              <SocialIcon width="24" height="24">
+                <use xlinkHref={sprite + '#facebook'}></use>
+              </SocialIcon>
             </li>
             <li>
-              <svg>
-                <use></use>
-              </svg>
+              <SocialIcon width="24" height="24">
+                <use xlinkHref={sprite + '#twitter'}></use>
+              </SocialIcon>
             </li>
-          </ul> */}
+          </SocList>
         </Overlay>
       </BoxOverlay>
 
