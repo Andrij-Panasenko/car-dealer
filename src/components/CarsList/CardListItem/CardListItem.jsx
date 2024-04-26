@@ -13,6 +13,8 @@ import {
   Overlay,
   RatingList,
   SocList,
+  SocListWrapp,
+  Social,
   SocialIcon,
   Subsidy,
   SubsidyWrapper,
@@ -20,6 +22,7 @@ import {
 
 import { BsFillStarFill as YellowStar } from 'react-icons/bs';
 import { BsFillStarFill as GreyStar } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 
 export const CardListItem = ({ data }) => {
   const { make, rating } = data;
@@ -71,24 +74,32 @@ export const CardListItem = ({ data }) => {
             </HeadSetSvg>
             Contact Seller
           </ContactBtn>
-          <p>Social</p>
-          <SocList>
-            <li>
-              <SocialIcon width="24" height="24">
-                <use xlinkHref={sprite + '#instagram'}></use>
-              </SocialIcon>
-            </li>
-            <li>
-              <SocialIcon width="24" height="24">
-                <use xlinkHref={sprite + '#facebook'}></use>
-              </SocialIcon>
-            </li>
-            <li>
-              <SocialIcon width="24" height="24">
-                <use xlinkHref={sprite + '#twitter'}></use>
-              </SocialIcon>
-            </li>
-          </SocList>
+         <SocListWrapp>
+           <Social>Social:</Social>
+           <SocList>
+             <li>
+               <Link>
+                 <SocialIcon width="24" height="24">
+                   <use xlinkHref={sprite + '#instagram'}></use>
+                 </SocialIcon>
+               </Link>
+             </li>
+             <li>
+               <Link>
+                 <SocialIcon width="24" height="24">
+                   <use xlinkHref={sprite + '#facebook'}></use>
+                 </SocialIcon>
+               </Link>
+             </li>
+             <li>
+               <Link>
+                 <SocialIcon width="24" height="24">
+                   <use xlinkHref={sprite + '#twitter'}></use>
+                 </SocialIcon>
+               </Link>
+             </li>
+           </SocList>
+         </SocListWrapp>
         </Overlay>
       </BoxOverlay>
 

@@ -1,3 +1,4 @@
+import { SiXcode } from 'react-icons/si';
 import styled from 'styled-components';
 
 export const ListItem = styled.li`
@@ -26,7 +27,6 @@ export const Overlay = styled.div`
   background-color: rgba(25, 36, 89, 0.8);
   border-radius: 10px;
   padding: 30px 45px;
-  transform: translateY(-100%);
 
   position: absolute;
 
@@ -74,6 +74,7 @@ export const ContactBtn = styled.button`
   min-width: 178px;
   height: 35px;
   padding: 5px 25px;
+  margin-bottom: 16px;
 
   border: none;
 
@@ -87,6 +88,21 @@ export const ContactBtn = styled.button`
 
 export const SocList = styled.ul`
   display: flex;
+  gap: 16px;
+`;
+
+export const SocListWrapp = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+`;
+
+export const Social = styled.p`
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 143%;
+
+  color: ${(p) => p.theme.colors.white};
 `;
 
 export const SocialIcon = styled.svg`
