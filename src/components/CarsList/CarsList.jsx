@@ -27,7 +27,7 @@ const [carsItem, setCarsItem] = useState([])
               <CardListItem key={item._id} data={item} />
             ))}
           </List>
-          <button type="button">View all Cars</button>
+          <button hidden type="button">View all Cars</button>
         </ListContainer>
       </Section>
     </>
