@@ -25,6 +25,7 @@ export const Overlay = styled.div`
   height: 180px;
   background-color: rgba(25, 36, 89, 0.8);
   border-radius: 10px;
+  padding: 30px 45px;
 
   position: absolute;
 
@@ -38,6 +39,53 @@ export const BoxOverlay = styled.div`
   &:hover ${Overlay} {
     transform: translateY(-100%);
   }
+`;
+
+export const AddBtn = styled.button`
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 5px;
+  min-width: 178px;
+  height: 35px;
+  padding: 5px 25px;
+  margin-bottom: 10px;
+
+  border: none;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 143%;
+
+  color: ${(p) => p.theme.colors.blue};
+  background-color: ${(p) => p.theme.colors.yellow};
+`;
+
+export const ContactBtn = styled.button`
+  display: flex;
+  gap: 8px;
+
+  align-items: center;
+  justify-content: flex-start;
+
+  border-radius: 5px;
+  min-width: 178px;
+  height: 35px;
+  padding: 5px 25px;
+
+  border: none;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 143%;
+
+  color: ${(p) => p.theme.colors.white};
+  background-color: #0066b3;
+`;
+
+export const HeadSetSvg = styled.svg`
+  stroke: #ffffff;
 `;
 
 export const CarNameTittle = styled.h2`
