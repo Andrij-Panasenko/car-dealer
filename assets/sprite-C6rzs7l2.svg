@@ -17,8 +17,8 @@
 <path d="M22 17.4384V15.5615C22 14.6438 21.3754 13.8438 20.4851 13.6212L20 13.5L18.7455 13.1864C18.3668 13.0917 18 13.3781 18 13.7684V19.2315C18 19.6219 18.3668 19.9083 18.7455 19.8136L20.4851 19.3787C21.3754 19.1561 22 18.3562 22 17.4384Z"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </symbol>
 <symbol id="check" width="24" height="24" viewBox="0 0 24 24" fill="none">
-<path d="M7 12.5L10 15.5L17 8.5" stroke="#47FF4F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="#47FF4F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7 12.5L10 15.5L17 8.5"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </symbol>
 <symbol id="map-pin" width="24" height="24" viewBox="0 0 24 24" fill="none">
 <path d="M21 10C21 17 12 23 12 23C12 23 3 17 3 10C3 7.61305 3.94821 5.32387 5.63604 3.63604C7.32387 1.94821 9.61305 1 12 1C14.3869 1 16.6761 1.94821 18.364 3.63604C20.0518 5.32387 21 7.61305 21 10Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
