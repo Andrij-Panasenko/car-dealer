@@ -66,7 +66,7 @@ export const Btn = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2px;
+  gap: 8px;
   min-width: 203px;
   height: 44px;
 
@@ -76,6 +76,13 @@ export const Btn = styled.button`
 
   color: ${(p) => p.theme.colors.blue};
   background-color: ${(p) => p.theme.colors.yellow};
+
+  transition: background-color ${(p) => p.theme.transition};
+
+  &:hover,
+  &:focus {
+    background-color: #f0a500;
+  }
 `;
 
 export const Check = styled.svg`
@@ -83,7 +90,7 @@ export const Check = styled.svg`
 `;
 
 export const Icon = styled.svg`
-  stroke: rgba(255, 255, 255, 0);
+  stroke: ${(p) => p.theme.colors.blue};
 `;
 
 export const CarBg = styled.div`
