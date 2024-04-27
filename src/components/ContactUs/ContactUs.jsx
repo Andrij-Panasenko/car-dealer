@@ -28,27 +28,29 @@ export const ContactUs = () => {
         <Benefits>
           <ListItem>
             {IcoCheck}
-            Free consultation on appropriate purchase and sale value
+            <p> Free consultation on appropriate purchase and sale value</p>
           </ListItem>
           <ListItem>
             {IcoCheck}
-            Combine preferential loan packages for customers who buy your car
+            <p>
+              Combine preferential loan packages for customers who buy your car
+            </p>
           </ListItem>
           <ListItem>
             {IcoCheck}
-            Quickly resolve liquidation documents
+            <p>Quickly resolve liquidation documents</p>
           </ListItem>
           <ListItem>
             {IcoCheck}
-            100% quick money transfer when the car is sold
+            <p>100% quick money transfer when the car is sold</p>
           </ListItem>
-          <Btn type="button">
-            <Icon width="24" height="24">
-              <use xlinkHref={sprite + '#headset'}></use>
-            </Icon>
-            Contact Sellers
-          </Btn>
         </Benefits>
+        <Btn type="button">
+          <Icon width="24" height="24">
+            <use xlinkHref={sprite + '#headset'}></use>
+          </Icon>
+          Contact Sellers
+        </Btn>
         <CarBg></CarBg>
       </BenefitWrapper>
     </section>

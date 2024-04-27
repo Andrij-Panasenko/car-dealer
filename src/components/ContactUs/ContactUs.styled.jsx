@@ -42,6 +42,7 @@ export const Action = styled.p`
 export const Benefits = styled.ol`
   width: 100%;
   max-width: 570px;
+  margin-bottom: 30px;
 `;
 
 export const ListItem = styled.li`
