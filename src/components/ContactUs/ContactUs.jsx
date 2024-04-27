@@ -10,6 +10,12 @@ import {
   CarBg,
 } from './ContactUs.styled';
 
+const IconCheck = (
+  <svg width="24" height="24">
+    <use xlinkHref={sprite + '#check'}></use>
+  </svg>
+);
+
 export const ContactUs = () => {
   return (
     <section>
@@ -20,13 +26,17 @@ export const ContactUs = () => {
         </Action>
         <Benefits>
           <ListItem>
+            {IconCheck}
             Free consultation on appropriate purchase and sale value
           </ListItem>
           <ListItem>
+            {IconCheck}
             Combine preferential loan packages for customers who buy your car
           </ListItem>
-          <ListItem>Quickly resolve liquidation documents</ListItem>
-          <ListItem>100% quick money transfer when the car is sold</ListItem>
+          <ListItem>
+            {IconCheck}Quickly resolve liquidation documents</ListItem>
+          <ListItem>
+            {IconCheck}100% quick money transfer when the car is sold</ListItem>
           <Btn type="button">
             <Icon width="24" height="24">
               <use xlinkHref={sprite + '#headset'}></use>

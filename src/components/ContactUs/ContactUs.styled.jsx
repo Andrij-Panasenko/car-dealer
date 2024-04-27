@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import cagBg from '../../assets/car.jpg';
+import sprite from '../../assets/sprite.svg';
 
 export const BenefitWrapper = styled.div`
   /* width: 876px; */
@@ -37,7 +38,7 @@ export const Action = styled.p`
   margin-bottom: 35px;
 `;
 
-export const Benefits = styled.ul`
+export const Benefits = styled.ol`
   width: 100%;
   max-width: 570px;
 `;
@@ -45,6 +46,9 @@ export const Benefits = styled.ul`
 export const ListItem = styled.li`
   font-weight: 500;
   font-size: 18px;
+
+  display: flex;
+  gap: 12px;
 
   color: ${(p) => p.theme.colors.white};
 
