@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import cagBg from '../../assets/car.jpg';
 import sprite from '../../assets/sprite.svg';
+import { SiXcode } from 'react-icons/si';
 
 export const BenefitWrapper = styled.div`
   /* width: 876px; */
@@ -75,6 +76,10 @@ export const Btn = styled.button`
 
   color: ${(p) => p.theme.colors.blue};
   background-color: ${(p) => p.theme.colors.yellow};
+`;
+
+export const IconCheck = styled.svg`
+  stroke: #47ff4f;
 `;
 
 export const Icon = styled.svg`
