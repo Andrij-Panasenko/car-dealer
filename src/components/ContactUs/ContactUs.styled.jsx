@@ -10,17 +10,6 @@ export const BenefitWrapper = styled.div`
   height: 550px;
 
   margin: 0 auto;
-  /* background: linear-gradient(
-    100deg,
-    rgb(25, 36, 89) 55%,
-    rgba(47, 61, 133, 0.4) 55%,
-    rgba(47, 61, 133, 0.4) 57%,
-    rgba(47, 61, 133, 0.2) 57%,
-
-    rgba(47, 61, 133, 0.2) 59%,
-    transparent 59%,
-    transparent 100%
-  ); */
   background: linear-gradient(
     100deg,
     rgb(25, 36, 89) 55%,
