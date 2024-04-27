@@ -8,13 +8,13 @@ import {
   ListItem,
   BenefitWrapper,
   CarBg,
-  IconCheck,
+  Check,
 } from './ContactUs.styled';
 
 const IcoCheck = (
-  <IconCheck width="24" height="24">
+  <Check width="24" height="24">
     <use xlinkHref={sprite + '#check'}></use>
-  </IconCheck>
+  </Check>
 );
 
 export const ContactUs = () => {

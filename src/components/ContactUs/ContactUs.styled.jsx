@@ -78,7 +78,7 @@ export const Btn = styled.button`
   background-color: ${(p) => p.theme.colors.yellow};
 `;
 
-export const IconCheck = styled.svg`
+export const Check = styled.svg`
   stroke: #47ff4f;
 `;
 
