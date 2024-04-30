@@ -186,7 +186,6 @@ Error generating stack: `+o.message+`
   display: block;
   width: 100%;
   height: 187px;
-  outline: 1px solid red;
 `,s1=D.h2`
   display: inline-block;
   font-weight: 700;
