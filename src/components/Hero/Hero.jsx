@@ -46,7 +46,6 @@ export const Hero = () => {
           </Bubble>
         </BannerBg>
       </HeroWrap>
-      {/* <SearchForm /> */}
     </>
   );
 };
