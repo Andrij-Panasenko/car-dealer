@@ -32,7 +32,7 @@ export const SearchForm = () => {
   }, []);
 
   return (
-    <>
+    <section>
       <Form onSubmit={handleSubmit(onSubmit)}>
         <SelectGroup>
           <Label>
@@ -106,6 +106,6 @@ export const SearchForm = () => {
           <SubmitBtn type="submit">Search Car</SubmitBtn>
         </InputsGroup>
       </Form>
-    </>
+    </section>
   );
 };

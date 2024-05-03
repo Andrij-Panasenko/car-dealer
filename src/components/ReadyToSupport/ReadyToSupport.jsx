@@ -22,7 +22,7 @@ import {
 export const ReadyToSupport = () => {
   return (
     <Section>
-      <SectionWrapp>
+      <SectionWrapp id="contacts">
         <SectionTitle title="We are ready to support" />
         <Wrapp>
           <div>

@@ -20,19 +20,19 @@ export const Navigation = () => {
                 <NavigationLink href="/">Home</NavigationLink>
               </il>
               <il>
-                <NavigationLink href="/">New models</NavigationLink>
+                <NavigationLink href="#new-models">New models</NavigationLink>
               </il>
               <il>
-                <NavigationLink href="/">Services</NavigationLink>
+                <NavigationLink href="#services">Services</NavigationLink>
               </il>
               <il>
-                <NavigationLink href="/">About us</NavigationLink>
+                <NavigationLink href="#about-us">About us</NavigationLink>
               </il>
               <il>
-                <NavigationLink href="/">News</NavigationLink>
+                <NavigationLink href="#testimonals">News</NavigationLink>
               </il>
               <il>
-                <NavigationLink href="/">Contacts</NavigationLink>
+                <NavigationLink href="#contacts">Contacts</NavigationLink>
               </il>
             </NavList>
           </Nav>

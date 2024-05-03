@@ -38,7 +38,7 @@ export const NavList = styled.ul`
   gap: 43px;
 `;
 
-export const NavigationLink = styled(Link)`
+export const NavigationLink = styled.a`
   color: ${(p) => p.theme.colors.blue};
   text-transform: uppercase;
   font-weight: 700;

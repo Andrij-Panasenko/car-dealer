@@ -20,7 +20,7 @@ export const CarsList = () => {
     <>
       <Divider></Divider>
       <Section>
-        <ListContainer>
+        <ListContainer id="new-models">
           <SectionTitle title="New Car Model" />
           <List>
             {carsItem.map((item) => (

@@ -17,7 +17,7 @@ import {
 export const Testimonials = () => {
   return (
     <Section>
-      <SectionWrapp>
+      <SectionWrapp id="testimonals">
         <SectionTitle title="Testimonials" />
         <SectionContainer>
           <Testimonial>

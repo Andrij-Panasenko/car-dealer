@@ -20,7 +20,7 @@ const IcoCheck = (
 export const ContactUs = () => {
   return (
     <section>
-      <BenefitWrapper>
+      <BenefitWrapper id="about-us">
         <Title>Do you need to sell a car?</Title>
         <Action>
           Just contact us, give us information about your car, we will help you:
