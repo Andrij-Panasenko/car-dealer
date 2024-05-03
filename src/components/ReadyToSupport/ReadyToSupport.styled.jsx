@@ -7,7 +7,8 @@ export const Section = styled.section`
 `;
 
 export const SectionWrapp = styled.div`
-  width: 1147px;
+  width: 100%;
+  max-width: 1147px;
   margin: 0 auto;
 `;
 
