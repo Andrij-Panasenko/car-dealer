@@ -2,11 +2,16 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const LowerHeader = styled.div`
-  outline: 1px solid red;
+  display: flex;
+  align-items: center;
   height: 46px;
   width: 100%;
+  max-width: 1440px;
   margin: 0 auto;
   background-color: rgba(255, 255, 255, 0.29);
+  position: absolute;
+  top: 100px;
+  z-index: 1000;
 `;
 
 export const NavContainer = styled.div`
@@ -17,8 +22,8 @@ export const NavContainer = styled.div`
   width: 100%;
   max-width: 1400px;
 
-  padding-top: 6px;
-  padding-bottom: 6px;
+  /* padding-top: 6px;
+  padding-bottom: 6px; */
 
   margin: 0 auto;
 `;
@@ -39,6 +44,9 @@ export const NavigationLink = styled(Link)`
   font-weight: 700;
   font-size: 16px;
   line-height: 125%;
+
+  padding-top: 13px;
+  padding-bottom: 13px;
 `;
 
 export const ContactSell = styled.button`

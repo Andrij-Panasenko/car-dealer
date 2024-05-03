@@ -2,6 +2,7 @@ import { CarsList } from './components/CarsList/CarsList';
 import { ContactUs } from './components/ContactUs/ContactUs';
 import { Footer } from './components/Footer/Footer';
 import { Header } from './components/Header/Header';
+import { Navigation } from './components/Header/Navigation/Navigation';
 import { Hero } from './components/Hero/Hero';
 import { Partners } from './components/Partners/Partners';
 import { ReadyToSupport } from './components/ReadyToSupport/ReadyToSupport';
@@ -17,6 +18,7 @@ export default function App() {
       <Header />
       <main>
         <SharedLayout>
+          <Navigation/>
           <Hero />
           <SearchForm />
           <CarsList />

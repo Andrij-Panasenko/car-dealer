@@ -11,9 +11,7 @@ export const BannerBg = styled.div`
   max-width: 1440px;
 
   padding-bottom: 153px;
-  padding-top: 153px;
-  /* padding-left: 135px; */
-  /* padding-right: 212px; */
+  padding-top: 253px;
 
   background-image: url(${banner});
   background-repeat: no-repeat;
