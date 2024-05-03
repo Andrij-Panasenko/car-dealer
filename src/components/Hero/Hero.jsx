@@ -15,7 +15,6 @@ import {
 } from './Hero.styled';
 import carBanner1x from '../../assets/banner-car.png';
 import carBanner2x from '../../assets/banner-car-2x.png';
-import { SearchForm } from '../SearchForm/SearchForm';
 
 export const Hero = () => {
   return (
