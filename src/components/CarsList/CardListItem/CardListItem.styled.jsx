@@ -2,7 +2,6 @@ import { SiXcode } from 'react-icons/si';
 import styled from 'styled-components';
 
 export const ListItem = styled.li`
-  outline: 1px solid red;
   font-weight: 700;
   font-size: 14px;
   width: 270px;
