@@ -22,9 +22,6 @@ export const NavContainer = styled.div`
   width: 100%;
   max-width: 1400px;
 
-  /* padding-top: 6px;
-  padding-bottom: 6px; */
-
   margin: 0 auto;
 `;
 
