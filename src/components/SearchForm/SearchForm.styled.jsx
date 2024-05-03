@@ -10,7 +10,7 @@ export const Form = styled.form`
 
   position: absolute;
   /* bottom: 0; */
-  transform: translate(7%, -20%);
+  transform: translate(10%, -20%);
 `;
 
 export const SelectGroup = styled.div`
