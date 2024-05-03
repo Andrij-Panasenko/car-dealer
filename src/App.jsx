@@ -1,5 +1,6 @@
 import { CarsList } from './components/CarsList/CarsList';
 import { ContactUs } from './components/ContactUs/ContactUs';
+import { Gallery } from './components/Gallery/Gallery';
 import { Header } from './components/Header/Header';
 import { Hero } from './components/Hero/Hero';
 import { Partners } from './components/Partners/Partners';
@@ -20,6 +21,7 @@ export default function App() {
           <ContactUs />
           <Testimonials />
           <Partners />
+          <Gallery/>
         </SharedLayout>
       </main>
       <footer></footer>
