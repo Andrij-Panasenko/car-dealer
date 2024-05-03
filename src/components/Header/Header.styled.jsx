@@ -8,9 +8,9 @@ export const PageHeader = styled.header`
 
 export const HeaderContainer = styled.div`
   width: 100%;
-  max-width: 1390px;
+  max-width: 1440px;
 
-  padding: 30px 20px;
+  padding: 30px 25px;
   margin: 0 auto;
 
   display: flex;
@@ -18,7 +18,6 @@ export const HeaderContainer = styled.div`
   justify-content: space-between;
 
   background-color: transparent;
-  outline: 1px solid red;
 
   position: absolute;
   left: 0;
@@ -91,5 +90,5 @@ export const SocialMediaList = styled.ul`
 `;
 
 export const SocialIcons = styled.svg`
-  stroke: ${p=>p.theme.colors.text};
+  stroke: ${(p) => p.theme.colors.text};
 `;
