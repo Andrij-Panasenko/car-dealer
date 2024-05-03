@@ -1,8 +1,8 @@
 import axios from 'axios';
 
-export const getCarsItem = async () => {
+export const getCarsItem = async (limit) => {
   try {
-    const response = await axios.get('/cars');
+    const response = await axios.get(`/cars?limit=${limit}`);
 
     return response.data;
   } catch (error) {

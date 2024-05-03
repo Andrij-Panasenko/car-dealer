@@ -1,4 +1,3 @@
-import { SiXcode } from 'react-icons/si';
 import styled from 'styled-components';
 
 export const ListItem = styled.li`
