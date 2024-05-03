@@ -1,5 +1,6 @@
 import { CarsList } from './components/CarsList/CarsList';
 import { ContactUs } from './components/ContactUs/ContactUs';
+import { Footer } from './components/Footer/Footer';
 import { Header } from './components/Header/Header';
 import { Hero } from './components/Hero/Hero';
 import { Partners } from './components/Partners/Partners';
@@ -26,7 +27,7 @@ export default function App() {
           <ReadyToSupport />
         </SharedLayout>
       </main>
-      <footer></footer>
+      <Footer />
     </>
   );
 }
