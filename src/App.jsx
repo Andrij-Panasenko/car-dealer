@@ -3,6 +3,7 @@ import { ContactUs } from './components/ContactUs/ContactUs';
 import { Header } from './components/Header/Header';
 import { Hero } from './components/Hero/Hero';
 import { Partners } from './components/Partners/Partners';
+import { ReadyToSupport } from './components/ReadyToSupport/ReadyToSupport';
 import { SearchForm } from './components/SearchForm/SearchForm';
 import { SharedLayout } from './components/SharedLayout/SharedLayout';
 import { StaticGallery } from './components/StaticGallery/StaticGallery';
@@ -21,7 +22,8 @@ export default function App() {
           <ContactUs />
           <Testimonials />
           <Partners />
-          <StaticGallery/>
+          <StaticGallery />
+          <ReadyToSupport />
         </SharedLayout>
       </main>
       <footer></footer>
